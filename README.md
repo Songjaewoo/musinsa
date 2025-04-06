@@ -121,7 +121,7 @@
   "message": "상품 등록 성공"
 }
 ```
-###`4-2. PUT /price` 상품 가격 수정
+### `4-2. PUT /price` 상품 가격 수정
 
     curl --request PUT 'localhost:8080/price' \
     --header 'Content-Type: application/json' \

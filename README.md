@@ -32,7 +32,7 @@
 ```
 
 ## API 명세
-###`1. GET /minPrice` 카테고리별 최저가 조회
+### `1. GET /minPrice` 카테고리별 최저가 조회
 
     curl 'localhost:8080/minPrice'
 
@@ -54,7 +54,7 @@
 }
 ```
 
-###`2. GET /minPriceBrand` 브랜드 최저가 조회
+### `2. GET /minPriceBrand` 브랜드 최저가 조회
 
     curl 'localhost:8080/minPriceBrand'
 
@@ -76,7 +76,7 @@
 }
 ```
 
-###`3. GET /minMaxPrice` 카테고리 최저/최고가 조회
+### `3. GET /minMaxPrice` 카테고리 최저/최고가 조회
 
     curl 'localhost:8080/minMaxPrice?category=%EC%83%81%EC%9D%98'
 
@@ -97,7 +97,7 @@
 }
 ```
 
-###`4-1. POST /product` 브랜드 및 상품 추가
+### `4-1. POST /product` 브랜드 및 상품 추가
 
     curl 'localhost:8080/product' \
     --header 'Content-Type: application/json' \
@@ -138,7 +138,7 @@
 }
 ```
 
-###`4-3. DELETE /brand/{brand}` 브랜드 삭제
+### `4-3. DELETE /brand/{brand}` 브랜드 삭제
 
     curl --request DELETE 'localhost:8080/brand/A'
 

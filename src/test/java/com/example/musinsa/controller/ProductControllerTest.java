@@ -1,4 +1,4 @@
-package com.example.musinsa.unit.controller;
+package com.example.musinsa.controller;
 
 import com.example.musinsa.controller.ProductController;
 import com.example.musinsa.model.ProductDto;
@@ -161,6 +161,7 @@ class ProductControllerTest {
     }
 
     @Test
+    @DisplayName("브랜드 삭제")
     void deleteBrand() throws Exception {
         mockMvc.perform(delete("/brand/A"))
                 .andExpect(status().isOk())
